@@ -1,0 +1,24 @@
+item:
+  item: diamond_sword hide_attributes custom-model-data:1
+  display-name: "Emerald Sword"
+  lore:
+    - ""
+    - "<g:#AAAAAA>When in Main Hand</g:#AAAAAA>"
+    - " <g:#00AA00>7 Attack Damage</g:#00AA00>"
+    - " <g:#00AA00>1.6 Attack Speed</g:#00AA00>"
+  craftable: true
+  recipe:
+    - ""
+    - emerald
+    - ""
+    - ""
+    - emerald
+    - ""
+    - ""
+    - stick
+    - ""
+  effective-durability: 900
+  recipe-give-amount: 1
+
+base-damage: 7
+base-attack-speed: 1.6

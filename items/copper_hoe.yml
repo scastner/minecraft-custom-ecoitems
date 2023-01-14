@@ -1,17 +1,17 @@
 item:
-  item: iron_axe hide_attributes custom-model-data:1
-  display-name: "Copper Axe"
+  item: iron_hoe hide_attributes custom-model-data:1
+  display-name: "Copper Hoe"
   lore:
     - ""
     - "<g:#AAAAAA>When in Main Hand</g:#AAAAAA>"
-    - " <g:#00AA00>9 Attack Damage</g:#00AA00>"
-    - " <g:#00AA00>0.9 Attack Speed</g:#00AA00>"
+    - " <g:#00AA00>1 Attack Damage</g:#00AA00>"
+    - " <g:#00AA00>3 Attack Speed</g:#00AA00>"
   craftable: true
   recipe:
     - copper_ingot
     - copper_ingot
     - ""
-    - copper_ingot
+    - ""
     - stick
     - ""
     - ""
@@ -20,5 +20,5 @@ item:
   effective-durability: 190
   recipe-give-amount: 1
 
-base-damage: 9
-base-attack-speed: 0.9
+base-damage: 1
+base-attack-speed: 3

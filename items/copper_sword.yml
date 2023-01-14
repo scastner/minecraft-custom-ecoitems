@@ -1,0 +1,24 @@
+item:
+  item: iron_sword hide_attributes custom-model-data:1
+  display-name: "Copper Sword"
+  lore:
+    - ""
+    - "<g:#AAAAAA>When in Main Hand</g:#AAAAAA>"
+    - " <g:#00AA00>6 Attack Damage</g:#00AA00>"
+    - " <g:#00AA00>1.6 Attack Speed</g:#00AA00>"
+  craftable: true
+  recipe:
+    - ""
+    - copper_ingot
+    - ""
+    - ""
+    - copper_ingot
+    - ""
+    - ""
+    - stick
+    - ""
+  effective-durability: 190
+  recipe-give-amount: 1
+
+base-damage: 6
+base-attack-speed: 1.6

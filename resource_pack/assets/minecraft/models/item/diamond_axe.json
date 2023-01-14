@@ -8,7 +8,7 @@
       "predicate": {
         "custom_model_data": 1
       },
-      "model": "minecraft:item/emerald_axe"
+      "model": "minecraft:item/custom/emerald_axe"
     }
   ]
 }
