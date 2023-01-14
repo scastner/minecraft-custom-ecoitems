@@ -1,0 +1,140 @@
+conditions: []
+effects: []
+advancedEffects: []
+sounds:
+  equip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  advancedEquip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  unequip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+advancedLore: []
+shard:
+  item: prismarine_shard unbreaking:1 hide_enchants
+  name: "<GRADIENT:f12711>Advancement Shard:</GRADIENT:f5af19> &cCopper"
+  lore: []
+  craftable: false
+  recipe:
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+helmet:
+  item: iron_helmet custom-model-data:1
+  name: "Copper Helmet"
+  advancedName: ""
+  effectiveDurability: 110
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore: []
+  craftable: true
+  defaultTier: copper
+  recipe:
+    - air
+    - air
+    - air
+    - copper_ingot
+    - copper_ingot
+    - copper_ingot
+    - copper_ingot
+    - air
+    - copper_ingot
+chestplate:
+  item: iron_chestplate custom-model-data:1
+  name: "Copper Chestplate"
+  advancedName: ""
+  effectiveDurability: 160
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore: []
+  craftable: true
+  defaultTier: copper
+  recipe:
+    - copper_ingot
+    - air
+    - copper_ingot
+    - copper_ingot
+    - copper_ingot
+    - copper_ingot
+    - copper_ingot
+    - copper_ingot
+    - copper_ingot
+elytra:
+  item: elytra
+  name: "Copper Elytra"
+  advancedName: ""
+  effectiveDurability: 2048
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore: []
+  craftable: false
+  defaultTier: copper
+  recipe:
+    - ecoitems:armor_core ? air
+    - nether_star
+    - ecoitems:armor_core ? air
+    - nether_star
+    - elytra
+    - nether_star
+    - air
+    - nether_star
+    - air
+leggings:
+  item: iron_leggings custom-model-data:1
+  name: "Copper Leggings"
+  advancedName: ""
+  effectiveDurability: 150
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore: []
+  craftable: true
+  defaultTier: copper
+  recipe:
+    - copper_ingot
+    - copper_ingot
+    - copper_ingot
+    - copper_ingot
+    - air
+    - copper_ingot
+    - copper_ingot
+    - air
+    - copper_ingot
+boots:
+  item: iron_boots custom-model-data:1
+  name: "Copper Boots"
+  advancedName: ""
+  effectiveDurability: 130
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore: []
+  craftable: true
+  defaultTier: copper
+  recipe:
+    - air
+    - air
+    - air
+    - copper_ingot
+    - air
+    - copper_ingot
+    - copper_ingot
+    - air
+    - copper_ingot

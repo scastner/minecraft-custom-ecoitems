@@ -1,0 +1,140 @@
+conditions: []
+effects: []
+advancedEffects: []
+sounds:
+  equip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  advancedEquip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  unequip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+advancedLore: []
+shard:
+  item: prismarine_shard unbreaking:1 hide_enchants
+  name: "<GRADIENT:f12711>Advancement Shard:</GRADIENT:f5af19> &cEmerald"
+  lore: []
+  craftable: false
+  recipe:
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+helmet:
+  item: diamond_helmet custom-model-data:1
+  name: "Emerald Helmet"
+  advancedName: ""
+  effectiveDurability: 264
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore: []
+  craftable: true
+  defaultTier: emerald
+  recipe:
+    - air
+    - air
+    - air
+    - emerald
+    - emerald
+    - emerald
+    - emerald
+    - air
+    - emerald
+chestplate:
+  item: diamond_chestplate custom-model-data:1
+  name: "Emerald Chestplate"
+  advancedName: ""
+  effectiveDurability: 384
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore: []
+  craftable: true
+  defaultTier: emerald
+  recipe:
+    - emerald
+    - air
+    - emerald
+    - emerald
+    - emerald
+    - emerald
+    - emerald
+    - emerald
+    - emerald
+elytra:
+  item: elytra
+  name: "Emerald Elytra"
+  advancedName: ""
+  effectiveDurability: 2048
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore: []
+  craftable: false
+  defaultTier: emerald
+  recipe:
+    - ecoitems:armor_core ? air
+    - nether_star
+    - ecoitems:armor_core ? air
+    - nether_star
+    - elytra
+    - nether_star
+    - air
+    - nether_star
+    - air
+leggings:
+  item: diamond_leggings custom-model-data:1
+  name: "Emerald Leggings"
+  advancedName: ""
+  effectiveDurability: 360
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore: []
+  craftable: true
+  defaultTier: emerald
+  recipe:
+    - emerald
+    - emerald
+    - emerald
+    - emerald
+    - air
+    - emerald
+    - emerald
+    - air
+    - emerald
+boots:
+  item: diamond_boots custom-model-data:1
+  name: "Emerald Boots"
+  advancedName: ""
+  effectiveDurability: 312
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore: []
+  craftable: true
+  defaultTier: emerald
+  recipe:
+    - air
+    - air
+    - air
+    - emerald
+    - air
+    - emerald
+    - emerald
+    - air
+    - emerald

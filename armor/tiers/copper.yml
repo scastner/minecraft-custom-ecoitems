@@ -1,0 +1,60 @@
+id: copper
+display: "<g:#9c4e31>COPPER</g:#9c4e31>"
+requiresTiers: []
+crystal:
+  item: end_crystal
+  name: "Upgrade Crystal"
+  craftable: false
+  recipe:
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+  giveAmount: 1
+  lore: []
+properties:
+  helmet:
+    armor: 2
+    toughness: 0
+    knockbackResistance: 0
+    speedPercentage: 0
+    attackSpeedPercentage: 0
+    attackDamagePercentage: 0
+    attackKnockbackPercentage: 0
+  chestplate:
+    armor: 6
+    toughness: 0
+    knockbackResistance: 0
+    speedPercentage: 0
+    attackSpeedPercentage: 0
+    attackDamagePercentage: 0
+    attackKnockbackPercentage: 0
+  elytra:
+    armor: 2
+    toughness: 0
+    knockbackResistance: 0
+    speedPercentage: 0
+    attackSpeedPercentage: 0
+    attackDamagePercentage: 0
+    attackKnockbackPercentage: 0
+  leggings:
+    armor: 5
+    toughness: 0
+    knockbackResistance: 0
+    speedPercentage: 0
+    attackSpeedPercentage: 0
+    attackDamagePercentage: 0
+    attackKnockbackPercentage: 0
+  boots:
+    armor: 2
+    toughness: 0
+    knockbackResistance: 0
+    speedPercentage: 0
+    attackSpeedPercentage: 0
+    attackDamagePercentage: 0
+    attackKnockbackPercentage: 0

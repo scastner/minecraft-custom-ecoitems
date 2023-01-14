@@ -1,6 +1,6 @@
 ## Custom items and resource pack for EcoItems
 
-### Tools
+### Items
 - Copper Axe
 - Copper Hoe
 - Copper Pickaxe
@@ -11,3 +11,13 @@
 - Emerald Pickaxe
 - Emerald Shovel
 - Emerald Sword
+
+### Armor
+- Copper Boots
+- Copper Chestplate
+- Copper Helmet
+- Copper Leggings
+- Emerald Boots
+- Emerald Chestplate
+- Emerald Helmet
+- Emerald Leggings
