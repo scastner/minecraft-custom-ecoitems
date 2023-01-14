@@ -1,0 +1,24 @@
+item:
+  item: iron_axe hide_attributes custom-model-data:1
+  display-name: "Copper Axe"
+  lore:
+    - ""
+    - "<g:#AAAAAA>When in Main Hand</g:#AAAAAA>"
+    - " <g:#00AA00>8 Attack Damage</g:#00AA00>"
+    - " <g:#00AA00>0.9 Attack Speed</g:#00AA00>"
+  craftable: true
+  recipe:
+    - copper_ingot
+    - copper_ingot
+    - ""
+    - copper_ingot
+    - stick
+    - ""
+    - ""
+    - stick
+    - ""
+  effective-durability: 190
+  recipe-give-amount: 1
+
+base-damage: 8
+base-attack-speed: 0.9
