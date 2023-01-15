@@ -1,0 +1,58 @@
+item:
+  item: diamond_sword hide_attributes custom-model-data:4
+  display-name: "Explosive Sword"
+  lore:
+    - ""
+    - "<g:#AAAAAA>When in Main Hand</g:#AAAAAA>"
+    - " <g:#00AA00>Explodes when attacking</g:#00AA00>"
+    - " <g:#00AA00>2 Attack Damage</g:#00AA00>"
+    - " <g:#00AA00>1 Attack Speed</g:#00AA00>"
+  craftable: true
+  recipe:
+    - ""
+    - tnt
+    - ""
+    - ""
+    - tnt
+    - ""
+    - ""
+    - stick
+    - ""
+  effective-durability: 900
+  recipe-give-amount: 1
+
+base-damage: 2
+base-attack-speed: 1
+
+conditions:
+  - id: has_item
+    args:
+      items:
+        - gunpowder
+
+effects:
+  - effects:
+      - id: aoe
+        args:
+          effects:
+            - id: damage_victim
+              args:
+                damage: 5
+                true-damage: true
+          shape: offset_circle
+          radius: 2
+          offset: 2
+      - id: play_sound
+        args:
+          sound: entity_generic_explode
+          pitch: 1
+          volume: 10
+      - id: spawn_particle
+        args:
+          particle: explosion_large
+          amount: 10
+      - id: remove_item
+        args:
+          item: gunpowder
+    triggers:
+      - melee_attack

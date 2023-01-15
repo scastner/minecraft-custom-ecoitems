@@ -21,6 +21,12 @@
         "custom_model_data": 3
       },
       "model": "minecraft:item/misc/blazing_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "minecraft:item/misc/explosive_sword"
     }
   ]
 }

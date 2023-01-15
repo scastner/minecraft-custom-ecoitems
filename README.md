@@ -17,6 +17,7 @@
 - Obsidian Shovel
 - Obsidian Sword
 - Blazing Sword
+- Explosive Sword
 
 ### Armor
 - Copper Boots
