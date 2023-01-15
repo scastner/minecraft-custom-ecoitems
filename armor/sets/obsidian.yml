@@ -1,0 +1,168 @@
+conditions: []
+effects:
+  - id: movement_speed_multiplier
+    args:
+      multiplier: 0.8
+advancedEffects: []
+sounds:
+  equip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  advancedEquip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  unequip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+advancedLore: []
+shard:
+  item: prismarine_shard unbreaking:1 hide_enchants
+  name: "<GRADIENT:f12711>Advancement Shard:</GRADIENT:f5af19> &cObsidian"
+  lore: []
+  craftable: false
+  recipe:
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+helmet:
+  item: diamond_helmet custom-model-data:2
+  name: "Obsidian Helmet"
+  advancedName: ""
+  effectiveDurability: 407
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lOBSIDIAN ARMOR SET BONUS"
+    - "&8» &cTougher than netherite"
+    - "&8» &cMove 20% slower"
+    - "&8&oRequires full set to be worn"
+  craftable: true
+  defaultTier: obsidian
+  recipe:
+    - air
+    - air
+    - air
+    - obsidian
+    - obsidian
+    - obsidian
+    - obsidian
+    - air
+    - obsidian
+chestplate:
+  item: diamond_chestplate custom-model-data:2
+  name: "Obsidian Chestplate"
+  advancedName: ""
+  effectiveDurability: 592
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lOBSIDIAN ARMOR SET BONUS"
+    - "&8» &cTougher than netherite"
+    - "&8» &cMove 20% slower"
+    - "&8&oRequires full set to be worn"
+  craftable: true
+  defaultTier: obsidian
+  recipe:
+    - obsidian
+    - air
+    - obsidian
+    - obsidian
+    - obsidian
+    - obsidian
+    - obsidian
+    - obsidian
+    - obsidian
+elytra:
+  item: elytra
+  name: "Obsidian Elytra"
+  advancedName: ""
+  effectiveDurability: 2048
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lOBSIDIAN ARMOR SET BONUS"
+    - "&8» &cTougher than netherite"
+    - "&8» &cMove 20% slower"
+    - "&8&oRequires full set to be worn"
+  craftable: false
+  defaultTier: obsidian
+  recipe:
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+leggings:
+  item: diamond_leggings custom-model-data:2
+  name: "Obsidian Leggings"
+  advancedName: ""
+  effectiveDurability: 555
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lOBSIDIAN ARMOR SET BONUS"
+    - "&8» &cTougher than netherite"
+    - "&8» &cMove 20% slower"
+    - "&8&oRequires full set to be worn"
+  craftable: true
+  defaultTier: obsidian
+  recipe:
+    - obsidian
+    - obsidian
+    - obsidian
+    - obsidian
+    - air
+    - obsidian
+    - obsidian
+    - air
+    - obsidian
+boots:
+  item: diamond_boots custom-model-data:2
+  name: "Obsidian Boots"
+  advancedName: ""
+  effectiveDurability: 481
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lOBSIDIAN ARMOR SET BONUS"
+    - "&8» &cTougher than netherite"
+    - "&8» &cMove 20% slower"
+    - "&8&oRequires full set to be worn"
+  craftable: true
+  defaultTier: obsidian
+  recipe:
+    - air
+    - air
+    - air
+    - obsidian
+    - air
+    - obsidian
+    - obsidian
+    - air
+    - obsidian

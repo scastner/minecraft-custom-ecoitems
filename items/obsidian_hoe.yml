@@ -1,0 +1,24 @@
+item:
+  item: diamond_hoe hide_attributes custom-model-data:2
+  display-name: "Obsidian Hoe"
+  lore:
+    - ""
+    - "<g:#AAAAAA>When in Main Hand</g:#AAAAAA>"
+    - " <g:#00AA00>1 Attack Damage</g:#00AA00>"
+    - " <g:#00AA00>4 Attack Speed</g:#00AA00>"
+  craftable: true
+  recipe:
+    - obsidian
+    - obsidian
+    - ""
+    - ""
+    - stick
+    - ""
+    - ""
+    - stick
+    - ""
+  effective-durability: 3122
+  recipe-give-amount: 1
+
+base-damage: 1
+base-attack-speed: 4

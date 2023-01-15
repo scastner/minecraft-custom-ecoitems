@@ -8,7 +8,19 @@
       "predicate": {
         "custom_model_data": 1
       },
-      "model": "minecraft:item/custom/emerald_sword"
+      "model": "minecraft:item/emerald/emerald_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "minecraft:item/obsidian/obsidian_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "minecraft:item/misc/blazing_sword"
     }
   ]
 }

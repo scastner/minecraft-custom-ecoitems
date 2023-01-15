@@ -8,7 +8,7 @@
       "predicate": {
         "custom_model_data": 1
       },
-      "model": "minecraft:item/custom/copper_leggings"
+      "model": "minecraft:item/copper/copper_leggings"
     }
   ]
 }

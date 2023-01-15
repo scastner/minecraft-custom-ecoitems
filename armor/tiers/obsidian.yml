@@ -1,0 +1,60 @@
+id: obsidian
+display: "&b&lOBSIDIAN"
+requiresTiers: []
+crystal:
+  item: end_crystal
+  name: "&bUpgrade Crystal"
+  craftable: false
+  recipe:
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+  giveAmount: 1
+  lore: []
+properties:
+  helmet:
+    armor: 3
+    toughness: 4
+    knockbackResistance: 1
+    speedPercentage: 0
+    attackSpeedPercentage: 0
+    attackDamagePercentage: 0
+    attackKnockbackPercentage: 0
+  chestplate:
+    armor: 8
+    toughness: 4
+    knockbackResistance: 1
+    speedPercentage: 0
+    attackSpeedPercentage: 0
+    attackDamagePercentage: 0
+    attackKnockbackPercentage: 0
+  elytra:
+    armor: 3
+    toughness: 0
+    knockbackResistance: 1
+    speedPercentage: 0
+    attackSpeedPercentage: 0
+    attackDamagePercentage: 0
+    attackKnockbackPercentage: 0
+  leggings:
+    armor: 6
+    toughness: 4
+    knockbackResistance: 1
+    speedPercentage: 0
+    attackSpeedPercentage: 0
+    attackDamagePercentage: 0
+    attackKnockbackPercentage: 0
+  boots:
+    armor: 3
+    toughness: 4
+    knockbackResistance: 1
+    speedPercentage: 0
+    attackSpeedPercentage: 0
+    attackDamagePercentage: 0
+    attackKnockbackPercentage: 0

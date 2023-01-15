@@ -11,6 +11,12 @@
 - Emerald Pickaxe
 - Emerald Shovel
 - Emerald Sword
+- Obsidian Axe
+- Obsidian Hoe
+- Obsidian Pickaxe
+- Obsidian Shovel
+- Obsidian Sword
+- Blazing Sword
 
 ### Armor
 - Copper Boots
@@ -21,3 +27,11 @@
 - Emerald Chestplate
 - Emerald Helmet
 - Emerald Leggings
+- Zombie Slayer Boots
+- Zombie Slayer Chestplate
+- Zombie Slayer Helmet
+- Zombie Slayer Leggings
+- Obsidian Boots
+- Obsidian Chestplate
+- Obsidian Helmet
+- Obsidian Leggings

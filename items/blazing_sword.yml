@@ -1,0 +1,34 @@
+item:
+  item: diamond_sword unbreaking:1 hide_attributes custom-model-data:3
+  display-name: "Blazing Sword"
+  lore:
+    - ""
+    - "<g:#AAAAAA>When in Main Hand</g:#AAAAAA>"
+    - " <g:#00AA00>Sets enemy of fire</g:#00AA00>"
+    - " <g:#00AA00>5 Attack Damage</g:#00AA00>"
+    - " <g:#00AA00>1.6 Attack Speed</g:#00AA00>"
+  craftable: true
+  recipe:
+    - ""
+    - blaze_rod
+    - ""
+    - ""
+    - blaze_rod
+    - ""
+    - ""
+    - stick
+    - ""
+  effective-durability: 1562
+  recipe-give-amount: 1
+
+base-damage: 5
+base-attack-speed: 1.6
+
+effects:
+  - effects:
+      - id: ignite
+        args:
+          damage_per_tick: 4
+          ticks: 100
+    triggers:
+      - melee_attack

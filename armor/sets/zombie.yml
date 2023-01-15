@@ -1,0 +1,194 @@
+conditions:
+  - id: near_entity
+    args:
+      entities:
+        - zombie
+      radius: 8
+effects:
+  - id: movement_speed_multiplier
+    args:
+      multiplier: 1.15
+  - id: damage_multiplier
+    args:
+      multiplier: 1.15
+    triggers:
+      - melee_attack
+    filters:
+      entities:
+        - zombie
+  - id: damage_multiplier
+    args:
+      multiplier: 0.85
+    triggers:
+      - take_damage
+    filters:
+      entities:
+        - zombie
+advancedEffects: []
+sounds:
+  equip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  advancedEquip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  unequip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+advancedLore: []
+shard:
+  item: prismarine_shard unbreaking:1 hide_enchants
+  name: ""
+  lore: []
+  craftable: false
+  recipe:
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+helmet:
+  item: leather_helmet color:#594824 hide_dye
+  name: "&cZombie Slayer Helmet"
+  advancedName: ""
+  effectiveDurability: 55
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lZOMBIE SLAYER SET BONUS"
+    - "&8» &cDeal 15% more damage to Zombies"
+    - "&8» &cMove 15% faster around Zombies"
+    - "&8» &cTake 15% less damage from Zombies"
+    - "&8&oRequires full set to be worn"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - air
+    - air
+    - air
+    - rotten_flesh
+    - rotten_flesh
+    - rotten_flesh
+    - rotten_flesh
+    - air
+    - rotten_flesh
+chestplate:
+  item: leather_chestplate color:#594824 hide_dye
+  name: "&cZombie Slayer Chestplate"
+  advancedName: ""
+  effectiveDurability: 80
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lZOMBIE SLAYER SET BONUS"
+    - "&8» &cDeal 15% more damage to Zombies"
+    - "&8» &cMove 15% faster around Zombies"
+    - "&8» &cTake 15% less damage from Zombies"
+    - "&8&oRequires full set to be worn"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - rotten_flesh
+    - air
+    - rotten_flesh
+    - rotten_flesh
+    - rotten_flesh
+    - rotten_flesh
+    - rotten_flesh
+    - rotten_flesh
+    - rotten_flesh
+elytra:
+  item: elytra
+  name: "&cZombie Slayer Elytra"
+  advancedName: ""
+  effectiveDurability: 432
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lZOMBIE SLAYER SET BONUS"
+    - "&8» &cDeal 15% more damage to Zombies"
+    - "&8» &cMove 15% faster around Zombies"
+    - "&8» &cTake 15% less damage from Zombies"
+    - "&8&oRequires full set to be worn"
+  craftable: false
+  defaultTier: default
+  recipe:
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+leggings:
+  item: leather_leggings color:#594824 hide_dye
+  name: "&cZombie Slayer Leggings"
+  advancedName: ""
+  effectiveDurability: 75
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lZOMBIE SLAYER SET BONUS"
+    - "&8» &cDeal 15% more damage to Zombies"
+    - "&8» &cMove 15% faster around Zombies"
+    - "&8» &cTake 15% less damage from Zombies"
+    - "&8&oRequires full set to be worn"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - rotten_flesh
+    - rotten_flesh
+    - rotten_flesh
+    - rotten_flesh
+    - air
+    - rotten_flesh
+    - rotten_flesh
+    - air
+    - rotten_flesh
+boots:
+  item: leather_boots color:#594824 hide_dye
+  name: "&cZombie Slayer Boots"
+  advancedName: ""
+  effectiveDurability: 65
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lZOMBIE SLAYER SET BONUS"
+    - "&8» &cDeal 15% more damage to Zombies"
+    - "&8» &cMove 15% faster around Zombies"
+    - "&8» &cTake 15% less damage from Zombies"
+    - "&8&oRequires full set to be worn"
+  craftable: true
+  defaultTier: default
+  recipe:
+    - air
+    - air
+    - air
+    - rotten_flesh
+    - air
+    - rotten_flesh
+    - rotten_flesh
+    - air
+    - rotten_flesh
