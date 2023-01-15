@@ -87,14 +87,14 @@ elytra:
   craftable: false
   defaultTier: copper
   recipe:
-    - ecoitems:armor_core ? air
-    - nether_star
-    - ecoitems:armor_core ? air
-    - nether_star
-    - elytra
-    - nether_star
     - air
-    - nether_star
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
     - air
 leggings:
   item: iron_leggings custom-model-data:1

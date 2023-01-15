@@ -1,0 +1,176 @@
+conditions:
+  - id: in_water
+effects:
+  - id: permanent_potion_effect
+    args:
+      effect: water_breathing
+      level: 1
+  - id: permanent_potion_effect
+    args:
+      effect: dolphins_grace
+      level: 1
+    conditions:
+      - id: is_swimming
+advancedEffects: []
+sounds:
+  equip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  advancedEquip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+  unequip:
+    enabled: false
+    sound: ""
+    volume: 1
+    pitch: 1
+advancedLore: []
+shard:
+  item: prismarine_shard unbreaking:1 hide_enchants
+  name: ""
+  lore: []
+  craftable: false
+  recipe:
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+helmet:
+  item: leather_helmet color:#59ab30 hide_dye hide_attributes
+  name: "Kelp Helmet"
+  advancedName: ""
+  effectiveDurability: 55
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lKELP ARMOR SET BONUS"
+    - "&8» &cCan breathe under water"
+    - "&8» &cSwim like the dolphins"
+    - "&8&oRequires full set to be worn"
+  craftable: true
+  defaultTier: empty
+  recipe:
+    - air
+    - air
+    - air
+    - kelp
+    - kelp
+    - kelp
+    - kelp
+    - air
+    - kelp
+chestplate:
+  item: leather_chestplate color:#59ab30 hide_dye hide_attributes
+  name: "Kelp Chestplate"
+  advancedName: ""
+  effectiveDurability: 80
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lKELP ARMOR SET BONUS"
+    - "&8» &cCan breathe under water"
+    - "&8» &cSwim like the dolphins"
+    - "&8&oRequires full set to be worn"
+  craftable: true
+  defaultTier: empty
+  recipe:
+    - kelp
+    - air
+    - kelp
+    - kelp
+    - kelp
+    - kelp
+    - kelp
+    - kelp
+    - kelp
+elytra:
+  item: elytra
+  name: "Kelp Elytra"
+  advancedName: ""
+  effectiveDurability: 432
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lKELP ARMOR SET BONUS"
+    - "&8» &cCan breathe under water"
+    - "&8» &cSwim like the dolphins"
+    - "&8&oRequires full set to be worn"
+  craftable: false
+  defaultTier: empty
+  recipe:
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+    - air
+leggings:
+  item: leather_leggings color:#59ab30 hide_dye hide_attributes
+  name: "Kelp Leggings"
+  advancedName: ""
+  effectiveDurability: 75
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lKELP ARMOR SET BONUS"
+    - "&8» &cCan breathe under water"
+    - "&8» &cSwim like the dolphins"
+    - "&8&oRequires full set to be worn"
+  craftable: true
+  defaultTier: empty
+  recipe:
+    - kelp
+    - kelp
+    - kelp
+    - kelp
+    - air
+    - kelp
+    - kelp
+    - air
+    - kelp
+boots:
+  item: leather_boots color:#59ab30 hide_dye hide_attributes
+  name: "Kelp Boots"
+  advancedName: ""
+  effectiveDurability: 65
+  effects: []
+  advancedEffects: []
+  conditions: []
+  lore:
+    - ""
+    - "&c&lKELP ARMOR SET BONUS"
+    - "&8» &cCan breathe under water"
+    - "&8» &cSwim like the dolphins"
+    - "&8&oRequires full set to be worn"
+  craftable: true
+  defaultTier: empty
+  recipe:
+    - air
+    - air
+    - air
+    - kelp
+    - air
+    - kelp
+    - kelp
+    - air
+    - kelp

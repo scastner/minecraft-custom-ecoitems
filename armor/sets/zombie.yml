@@ -59,7 +59,7 @@ shard:
     - air
 helmet:
   item: leather_helmet color:#594824 hide_dye
-  name: "&cZombie Slayer Helmet"
+  name: "Zombie Slayer Helmet"
   advancedName: ""
   effectiveDurability: 55
   effects: []
@@ -86,7 +86,7 @@ helmet:
     - rotten_flesh
 chestplate:
   item: leather_chestplate color:#594824 hide_dye
-  name: "&cZombie Slayer Chestplate"
+  name: "Zombie Slayer Chestplate"
   advancedName: ""
   effectiveDurability: 80
   effects: []
@@ -113,7 +113,7 @@ chestplate:
     - rotten_flesh
 elytra:
   item: elytra
-  name: "&cZombie Slayer Elytra"
+  name: "Zombie Slayer Elytra"
   advancedName: ""
   effectiveDurability: 432
   effects: []
@@ -140,7 +140,7 @@ elytra:
     - air
 leggings:
   item: leather_leggings color:#594824 hide_dye
-  name: "&cZombie Slayer Leggings"
+  name: "Zombie Slayer Leggings"
   advancedName: ""
   effectiveDurability: 75
   effects: []
@@ -167,7 +167,7 @@ leggings:
     - rotten_flesh
 boots:
   item: leather_boots color:#594824 hide_dye
-  name: "&cZombie Slayer Boots"
+  name: "Zombie Slayer Boots"
   advancedName: ""
   effectiveDurability: 65
   effects: []
